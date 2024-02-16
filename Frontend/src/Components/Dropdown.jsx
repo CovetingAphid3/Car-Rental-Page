@@ -7,10 +7,10 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#000000", // Set the background color to black
+      main: "#0a2342", 
     },
     text: {
-      primary: "#ffffff", // Set the text color to white
+      primary: "#ffffff", 
     },
   },
 });
@@ -22,7 +22,7 @@ const Dropdown = () => {
     setSelectedOption(event.target.value);
   };
 
-  const options = ["Option 1", "Option 2", "Option 3", "Option 4"];
+  const options = ["Sign Up", "FAQ", "Option 3", "Option 4"];
 
   return (
     <ThemeProvider theme={theme}>
@@ -32,7 +32,7 @@ const Dropdown = () => {
           onChange={handleChange}
           displayEmpty
           inputProps={{ "aria-label": "Select an option" }}
-          style={{ backgroundColor: "#000000", color: "#ffffff" }}
+          style={{ backgroundColor: "#0a2342", color: "#ffffff" }}
           MenuProps={{
             anchorOrigin: {
               vertical: "bottom",
@@ -47,8 +47,13 @@ const Dropdown = () => {
         >
           <MenuItem
             value=""
-            style={{ backgroundColor: "#000000", color: "#ffffff" }}
-            disabled
+            style={{
+              backgroundColor: "#0a2342",
+              color: "#ffffff",
+              paddingTop: 2,
+              paddingBottom: 2,
+              margin: 0,
+            }}
           >
             More...
           </MenuItem>
@@ -56,7 +61,14 @@ const Dropdown = () => {
             <MenuItem
               key={option}
               value={option}
-              style={{ backgroundColor: "#000000", color: "#ffffff" }}
+              dense
+              style={{
+                backgroundColor: "#0a2342",
+                color: "#ffffff",
+                paddingTop: 2,
+                paddingBottom: 2,
+                margin: 0,
+              }}
             >
               {option}
             </MenuItem>

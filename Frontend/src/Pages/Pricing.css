@@ -12,8 +12,7 @@
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 20px;
-  background-color: black;
-  
+  background-color: #0a2342;
 }
 
 .pricing-card {
@@ -28,11 +27,11 @@
 }
 
 .pricing h3 {
-  color: white;
+  color: black;
 }
 
 .pricing h4 {
-  color: white;
+  color: crimson;
   font-weight: 700;
 }
 

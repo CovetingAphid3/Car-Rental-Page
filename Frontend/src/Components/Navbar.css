@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  background-color: #0a2342;
   color: white;
   height: 15vh;
   border-radius: 5px;
@@ -20,4 +20,3 @@
 .navbar a:hover {
   color: rgb(50, 20, 220);
 }
-

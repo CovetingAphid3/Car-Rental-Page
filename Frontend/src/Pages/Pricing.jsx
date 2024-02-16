@@ -1,6 +1,6 @@
 import { Typography, Paper, Grid, Button } from "@mui/material";
 import "./Pricing.css"; // You can create this stylesheet for additional styling
-import AddCardIcon from '@mui/icons-material/AddCard';
+import AddCardIcon from "@mui/icons-material/AddCard";
 const Pricing = () => {
   const plans = [
     {
@@ -48,7 +48,7 @@ const Pricing = () => {
   return (
     <div className="pricing" id="pricing">
       {/* Explanation of How It Works */}
-      <Typography variant="h4">How It Works:</Typography>
+      <Typography variant="h2">How It Works:</Typography>
       <Typography>
         Welcome to ZoomWheels, where your journey begins with simplicity and
         excitement. Follow these steps to experience the ultimate freedom of the
@@ -95,7 +95,7 @@ const Pricing = () => {
               <Typography variant="h6" gutterBottom>
                 {plan.title}
               </Typography>
-              <AddCardIcon/>
+              <AddCardIcon />
               <Typography variant="h4" gutterBottom>
                 {plan.price}
               </Typography>
@@ -110,7 +110,7 @@ const Pricing = () => {
             </Paper>
           </Grid>
         ))}
-        <p style={{marginLeft:"30px"}}>*subject to availability</p>
+        <p style={{ marginLeft: "30px" }}>*subject to availability</p>
       </Grid>
     </div>
   );
