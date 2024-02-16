@@ -1,0 +1,20 @@
+.contact-details,
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.contact-details {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+#contact-section label {
+  padding: 10px 0px 0px 0px;
+}
+#contact-section button {
+  width: 100px;
+  margin: 10px;
+}
+

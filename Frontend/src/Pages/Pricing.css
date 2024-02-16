@@ -1,0 +1,55 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  background-color: black;
+  
+}
+
+.pricing-card {
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  transition: 200ms;
+}
+
+.pricing h3 {
+  color: white;
+}
+
+.pricing h4 {
+  color: white;
+  font-weight: 700;
+}
+
+.pricing ul {
+  list-style: none;
+  padding: 0;
+}
+.pricing ol {
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.pricing li {
+  margin: 15px 0px 10px 0px;
+}
+
+.pricing button {
+  margin-top: 16px;
+  margin-bottom: 26px;
+}

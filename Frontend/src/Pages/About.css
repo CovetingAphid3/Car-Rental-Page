@@ -1,0 +1,44 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+.about {
+  background-color: black;
+  
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.about-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-body h4,
+.about-body p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.about-body p {
+  margin-left: 100px;
+  margin-right: 50px;
+  color: white;
+}
